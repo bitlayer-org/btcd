@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcd
+module github.com/bitlayer-org/btcd
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.1.3
@@ -29,6 +29,8 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012114108-27580a73aa93
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
