@@ -30,7 +30,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012114108-27580a73aa93
+//replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012114108-27580a73aa93
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012124405-82434161968f
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
