@@ -6,6 +6,7 @@ require (
 	github.com/aead/siphash v1.0.1
 	github.com/btcsuite/btcd v0.23.5-0.20231215221805-96c9fd8078fd
 	github.com/btcsuite/btcd/btcec/v2 v2.1.3
+	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
@@ -13,4 +14,4 @@ require (
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 )
 
-replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065105-64cd6fb30368
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065421-31a57e1a4def
