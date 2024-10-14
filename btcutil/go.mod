@@ -14,4 +14,3 @@ require (
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 )
 
-replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065421-31a57e1a4def
