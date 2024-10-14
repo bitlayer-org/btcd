@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcd/btcutil
+module github.com/bitlayer-org/btcd/btcutil
 
 go 1.16
 
@@ -12,3 +12,6 @@ require (
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 )
+
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012124405-82434161968f
+

@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcd/btcec/v2
+module github.com/bitlayer-org/btcd/btcec/v2
 
 go 1.17
 
@@ -14,3 +14,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012124405-82434161968f
+
