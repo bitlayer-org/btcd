@@ -1,7 +1,6 @@
-module github.com/bitlayer-org/btcd
+module github.com/btcsuite/btcd
 
 require (
-	github.com/btcsuite/btcd v0.23.5-0.20231215221805-96c9fd8078fd
 	github.com/btcsuite/btcd/btcec/v2 v2.1.3
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
@@ -31,11 +30,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065421-31a57e1a4def
-
-replace github.com/btcsuite/btcd/btcec/v2 => github.com/bitlayer-org/btcd/btcec/v2 v2.0.0-20241014065421-31a57e1a4def
-
-replace github.com/btcsuite/btcd/btcutil => github.com/bitlayer-org/btcd/btcutil v0.0.0-20241014065421-31a57e1a4def
+//replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065421-31a57e1a4def
+//
+//replace github.com/btcsuite/btcd/btcec/v2 => github.com/bitlayer-org/btcd/btcec/v2 v2.0.0-20241014065421-31a57e1a4def
+//
+//replace github.com/btcsuite/btcd/btcutil => github.com/bitlayer-org/btcd/btcutil v0.0.0-20241014065421-31a57e1a4def
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
