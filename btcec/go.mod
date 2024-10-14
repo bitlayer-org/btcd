@@ -15,5 +15,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012124405-82434161968f
+replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241014065105-64cd6fb30368
 
