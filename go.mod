@@ -30,10 +30,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-//replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012114108-27580a73aa93
 replace github.com/btcsuite/btcd => github.com/bitlayer-org/btcd v0.0.0-20241012124405-82434161968f
-//replace github.com/btcsuite/btcd/btcec/v2 => github.com/bitlayer-org/btcd/btcec/v2 v2.0.0-20241012124405-82434161968f
-//replace github.com/btcsuite/btcd/btcutil => github.com/bitlayer-org/btcd/btcutil v0.0.0-20241012124405-82434161968f
+replace github.com/btcsuite/btcd/btcec/v2 => github.com/bitlayer-org/btcd/btcec/v2 v2.0.0-20241012124405-82434161968f
+replace github.com/btcsuite/btcd/btcutil => github.com/bitlayer-org/btcd/btcutil v0.0.0-20241012124405-82434161968f
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
